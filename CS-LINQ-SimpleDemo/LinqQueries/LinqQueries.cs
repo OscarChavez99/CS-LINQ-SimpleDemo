@@ -12,7 +12,7 @@ namespace CS_LINQ_SimpleDemo.LinqQueries
             // ------------ Products with prices greater than 1000 ------------
             var highPricedProducts = from p in products
                                      where p.Price > 1000
-                                     orderby p.Price
+                                     orderby p.ProductName
                                      select p.ProductName;
 
             // ---------------- Sony products ----------------

@@ -8,10 +8,10 @@ namespace CS_LINQ_SimpleDemo.Lists
         {
             List<Product> products = new()
             {
-                new Product { ProductName = "iPhone", BrandName = "Apple", Price = 1000.5f},
-                new Product { ProductName = "Mac", BrandName = "Apple", Price = 1200.5f},
+                new Product { ProductName = "DualSense", BrandName = "Sony", Price = 99.9f},
                 new Product { ProductName = "PlayStation", BrandName = "Sony", Price = 500.0f},
-                new Product { ProductName = "DualSense", BrandName = "Sony", Price = 99.9f}
+                new Product { ProductName = "iPhone", BrandName = "Apple", Price = 1000.5f},
+                new Product { ProductName = "Mac", BrandName = "Apple", Price = 1200.5f}
             };
 
             return products;
